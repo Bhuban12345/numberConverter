@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="index.css">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/8.0.2/bignumber.min.js" integrity="sha512-7UzDjRNKHpQnkh1Wf1l6i/OPINS9P2DDzTwQNX79JxfbInCXGpgI1RPb3ZD+uTP3O5X7Ke4e0+cxt2TxV7n0qQ==" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="from">
+            <h1>From</h1>
+            <select class="itemFrom" id="itemFrom">
+                <option>Decimal</option>
+                <option> Hexadecimal</option>
+                <option>Octal</option>
+                <option>Binary</option>
+           </select>
+           <input class="userInput"  type="text" id="input">
+        </div>
+        <div class="to">
+            <h1>To</h1>
+            <select class="itemTo" id="itemTo">
+                <option>Decimal</option>
+                <option> Hexadecimal</option>
+                <option>Octal</option>
+                <option>Binary</option>
+           </select> 
+           <input class="userOutput" type="text" id="output">
+       </div>       
+    </div>
+    <div class="buttonConatainer">
+        <button class="convert" id="convert" type="submit" onclick="getNumberForm()">Convert</button>
+        <button class="swap" id="swap" type="submit" onclick="swap()" onclick = "swap()">Swap</button>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>

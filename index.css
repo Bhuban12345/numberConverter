@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 180px;
+    background-color: aqua;
+    margin: 50px 30px 0px 30px;
+}
+.from {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.to{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.buttonConatainer{
+    text-align: center;
+    margin-top: 10px;
+}
+#convert {
+    background-color: blue;
+    font-size: 20px;
+    color: red;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+#swap {
+    background-color:blue;
+    width: 100px;
+    height: 50px;
+    font-size: 20px ;
+    color: red;
+    border-radius: 8px;
+}
+.userInput{
+    height: 30px;
+    text-align: center;
+    border: 2px solid red;
+}
+.userOutput {
+    height: 30px;
+    text-align: center;
+    border: 2px solid red;
+}
+.itemFrom {
+    height: 50px;
+    margin-bottom: 1px;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+.itemTo {
+    height: 50px;
+    margin-bottom: 1px;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+#input{
+    font-size:20px;
+    color: green;
+}
+#output{
+    font-size:20px;
+    color: green;
+}
